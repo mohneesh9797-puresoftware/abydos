@@ -6,21 +6,9 @@ jobs:
       arch: arm64
       python: 3.7
     - os: linux
-      arch: ppc64le
+      arch: amd64
       python: 3.7
-    - os: linux
-      dist: xenial
-      python: 3.5
-    - os: linux
-      dist: xenial
-      python: 3.6
-    - os: linux
-      dist: xenial
-      python: 3.7
-    - os: linux
-      dist: xenial
-      python: 3.8
-
+    
 notifications:
   email: false
 
